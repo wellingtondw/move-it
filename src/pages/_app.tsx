@@ -1,24 +1,19 @@
-import { createGlobalStyle, ThemeProvider } from 'styled-components'
+import Head from 'next/head'
 
-const GlobalStyle = createGlobalStyle`
-  body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-`
+import { ThemeProvider } from 'styled-components'
+import GlobalStyles from '../styles/global'
+import theme from '../styles/theme'
 
-const theme = {
-  colors: {
-    primary: '#0070f3',
-  },
-}
 
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <GlobalStyle />
+      <Head>
+        <title>Move It</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <ThemeProvider theme={theme}>
+        <GlobalStyles/>
         <Component {...pageProps} />
       </ThemeProvider>
     </>
