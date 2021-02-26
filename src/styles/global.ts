@@ -21,7 +21,7 @@ const GlobalStyles = createGlobalStyle`
       font-size: 62.5%;
     }
     body {
-      font-family: ${theme.font.primary.family};
+      font-family: ${theme.font.primary.primary};
       font-size: ${theme.font.sizes.xsmall};
       background-color: ${theme.colors.mainBg};
     }

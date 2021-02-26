@@ -1,6 +1,6 @@
 export default {
   border: {
-    radius: '0.5px'
+    radius: '0.5rem'
   },
   font: {
     primary: {
@@ -30,8 +30,10 @@ export default {
     white: '#FFFFFF',
     title: '#2E384D',
     text: '#666666',
+    secondaryText:  '#B2B9FF',
     gray: '#DCDDE0',
-    mainBg: '#F2F3F5'
+    blue: '#4953B8',
+    mainBg: '#F2F3F5',
   },
   spacings: {
     xxsmall: '0.8rem',
