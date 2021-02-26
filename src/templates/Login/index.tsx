@@ -5,9 +5,12 @@ import Input  from 'components/Input'
 
 const Login = () => {
   return (
-    <S.Container>
-    
-    <Input placeholder='Digite seu username' icon={<RightArrowAlt />}/>
+    <S.Container>    
+      <S.ImageBackground src='images/move-bg.svg' />
+       
+      <S.Wrapper>
+        <Input placeholder='Digite seu username' icon={<RightArrowAlt />}/>
+      </S.Wrapper>
     </S.Container>
   )
 }

@@ -5,11 +5,29 @@ export const Container = styled.div`
   ${({ theme }) => css`
     width: 100%;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: ${theme.colors.primary};
-    padding:  50px;
+    position: relative;
 
     ${InputStyles.Wrapper} {
       width: 420px;
     }
   `}
+`
+
+export const ImageBackground = styled.img`
+  width: 50%;
+  padding-right: 8rem;
+  height: 100vh;
+  top: 8rem;
+`
+
+export const Wrapper = styled.div`
+  ${({ theme }) => css`
+    width: 50%;
+    padding: ${theme.spacings.small};
+  `}
+
 `
