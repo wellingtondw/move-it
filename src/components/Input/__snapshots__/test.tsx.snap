@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> should render correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 8rem;
+}
+
+.c0 .sc-bdfBwQ {
+  width: 8rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.c1 {
+  width: 100%;
+  background: linear-gradient(90deg,#4953B8 0%,rgba(73,83,184,0.2) 100%);
+  border-radius: 0.5rem 0 0 0.5rem;
+  font-size: 2.4rem;
+  padding-left: 2.4rem;
+  color: #B2B9FF;
+  border: none;
+  outline: none;
+}
+
+.c1:focus-within {
+  box-shadow: 0 0 0.5rem #B2B9FF;
+}
+
+.c1::-webkit-input-placeholder {
+  color: #B2B9FF;
+}
+
+.c1::-moz-placeholder {
+  color: #B2B9FF;
+}
+
+.c1:-ms-input-placeholder {
+  color: #B2B9FF;
+}
+
+.c1::placeholder {
+  color: #B2B9FF;
+}
+
+<div
+  class="c0"
+>
+  <input
+    class="c1"
+    placeholder="move it"
+    value=""
+  />
+</div>
+`;
